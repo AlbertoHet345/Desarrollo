@@ -1,0 +1,8 @@
+CREATE DATABASE swift_developer;
+
+CREATE TABLE users (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	user_mail VARCHAR(50) NOT NULL,
+	user_password VARCHAR(32) NOT NULL,
+	PRIMARY KEY (id)
+);
